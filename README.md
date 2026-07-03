@@ -13,7 +13,6 @@ A network security monitoring project built in Splunk to detect firewall-level t
 - [Splunk Enterprise (Free Trial)](https://www.splunk.com/en_us/download/splunk-enterprise.html)
 - SPL (Splunk Processing Language)
 - Python (for generating the dataset)
-- [MITRE ATT&CK Framework](https://attack.mitre.org/)
 
 ---
 
@@ -186,15 +185,6 @@ index=main sourcetype=firewall_logs
 - How to spot data exfiltration at the network level using bytes_sent values
 - Writing SPL queries to detect threats from raw firewall data
 
----
-
-## References
-
-- [Splunk SPL Documentation](https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/WhatsInThisManual)
-- [MITRE ATT&CK — Discovery](https://attack.mitre.org/tactics/TA0007/)
-- [MITRE ATT&CK — Lateral Movement](https://attack.mitre.org/tactics/TA0008/)
-- [MITRE ATT&CK — Exfiltration](https://attack.mitre.org/tactics/TA0010/)
-- [LetsDefend SOC Analyst Path](https://app.letsdefend.io/)
 
 ---
 
