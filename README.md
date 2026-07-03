@@ -6,7 +6,7 @@ A network security monitoring project built in Splunk to detect firewall-level t
 
 ## Dashboard Preview
 
-![Firewall Monitoring Dashboard](screenshots/firewall_dashboard.png)
+[View Firewall Monitoring Dashboard](Firewall%20Monitoring.pdf)
 
 ---
 
@@ -24,18 +24,8 @@ A network security monitoring project built in Splunk to detect firewall-level t
 ```
 splunk-firewall-monitoring/
 │
-├── dataset/
-│   └── firewall_logs.csv        # 2,374 firewall log records
-│
-├── spl_queries/
-│   └── firewall_queries.spl     # All SPL queries used in the dashboard
-│
-├── screenshots/
-│   └── firewall_dashboard.png   # Final dashboard screenshot
-│
-├── data_generator/
-│   └── gen_firewall_logs.py     # Python script used to generate the dataset
-│
+├── firewall_logs.csv            # Firewall log dataset (2,374 records)
+├── Firewall Monitoring.pdf      # Dashboard screenshot/export
 └── README.md
 ```
 
