@@ -6,9 +6,7 @@ A network security monitoring project built in Splunk to detect firewall-level t
 
 ## Dashboard Preview
 
-[View Firewall Monitoring Dashboard](Firewall%20Monitoring.pdf)
-
----
+[📄 View Firewall Monitoring Dashboard](./Firewall%20Monitoring.pdf)
 
 ## Tools Used
 
